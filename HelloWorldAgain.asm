@@ -1,7 +1,7 @@
 global _start
 
 section .data
-	msg db "Hello, world!", 0x0a
+	msg db "Hello, world!", 0x0a ; 0x0a is character for new line 
 	len equ $ - msg
 
 section .text
