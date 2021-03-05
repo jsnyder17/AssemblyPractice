@@ -6,7 +6,7 @@ section .data
 
 section .text
 _start:
-	mov eax, 4	; sys_write system call 
+	mov eax, 5	; sys_write system call 
 	mov ebx, 1	; stdout file descriptor
 	mov ecx, msg	; bytes to write
 	mov edx, len	; number of bytes to write
